@@ -22,8 +22,6 @@ Di chuyển đến thư mục trước đó:
 cd -
 ```
 
-
-
 ## Hiển thị thông tin
 - thông tin vị trí thư mục hiện tại:
 ```
@@ -61,4 +59,6 @@ du /path/to/directory
 
 ví dụ:
 ![alt text](image-2.png)
+
+## Sao chép di chuyển thư mục, file
 
