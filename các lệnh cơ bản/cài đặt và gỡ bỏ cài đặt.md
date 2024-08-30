@@ -27,7 +27,7 @@ sudo apt install -f
 ![alt text](image-1.png)
 
 ## Gỡ bỏ ứng dụng
-- Bằng lệnh sudo apt remove
+### Bằng lệnh sudo apt remove
 
 Kiểm tra trình quản lý gói APT:
 ```
@@ -41,11 +41,11 @@ sudo apt remove <tên_gói>
 ```
 sudo apt purge <tên gói>
 ```
-- Sử dụng lệnh dpkg:
+### Sử dụng lệnh dpkg:
 ```
 sudo dpkg -r <tên_gói>
 ```
-Để gỡ bỏ hoàn toàn:
+Để gỡ bỏ hoàn toàn bao gồm cả các cấu hình:
 ```
 sudo dpkg --purge <tên_gói>
 ```
