@@ -18,3 +18,29 @@ ip addr
 ```
 route
 ```
+- Mở SSH
+```
+sudo apt install openssh-server
+```
+port mở mặc định cho ssh là 22
+
+- Mở SSH trên filewall (UFW)
+```
+sudo ufw allow ssh
+```
+- Thay đổi cổng SSH
+```
+sudo nano /etc/ssh/sshd_config
+```
+![alt text](image.png)
+
+- Để thay đổi có hiệu lực, bạn cần khởi động lại dịch vụ SSH:
+```
+sudo systemctl restart sshd
+```
+- Kiểm tra xem dịch vụ SSH đã khởi động lại chưa:
+```
+sudo systemctl status sshd
+```
+![alt text](image-1.png)
+
