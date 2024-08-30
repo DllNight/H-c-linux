@@ -28,5 +28,18 @@ Chỉ xóa thư mục trống:
 ```
 sudo rmdir /path/to/empty_folder
 ```
+## Tạo File
+- tạo file rỗng
+```
+touch tên file
+```
+tạo nhiều file rông
+```
+touch file1.txt file2.txt file3.txt
+```
 
-
+Tạo tệp và nhập nội dung:
+```
+echo "Đây là nội dung của tệp" > myfile.txt
+```
+![alt text](image.png)
