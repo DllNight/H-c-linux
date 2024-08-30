@@ -1,0 +1,10 @@
+# Cài đặt ứng dụng từ kho lưu trữ
+
+## Sử dụng apt để cài đặt từ kho lưu trữ:
+- update kho lưu trữ
+```
+sudo apt update
+```
+- cài đặt đặt ứng dụng
+```
+sudo apt install <tên ứng dụng>
