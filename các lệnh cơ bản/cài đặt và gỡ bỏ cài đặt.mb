@@ -8,3 +8,4 @@ sudo apt update
 - cài đặt đặt ứng dụng
 ```
 sudo apt install <tên ứng dụng>
+
