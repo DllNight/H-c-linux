@@ -110,6 +110,43 @@ dấu >  sẽ ghi đè lên nội dung của file
 dấu >> sẽ nối thêm nội dung vào cuối file
 
 ## xem tập tin, đếm dòng, ký tự, tìm kiếm trong file
+
+- Xem nội dung tập tin
+
+Cat: Hiển thị toàn bộ nội dung
+```
+cat [tên_tập_tin]
+```
+
+less: Xem nội dung tập tin một cách tương tác, cho phép bạn cuộn lên xuống, tìm kiếm nội dung
+```
+less [tên_tập_tin]
+```
+h: Hiển thị trợ giúp.
+q: Thoát khỏi lệnh.
+/: Tìm kiếm một chuỗi.
+n: Tìm kiếm lần tiếp theo.
+N: Tìm kiếm lần trước.
+
+more:Tương tự như less, nhưng có ít tính năng hơn.
+```
+Tương tự như less, nhưng có ít tính năng hơn.
+```
+Space: Xem tiếp một trang.
+b: Quay lại một trang.
+q: Thoát khỏi lệnh.
+
+Head: Hiển thị các dòng đầu tiên của một tập tin.
+```
+head [-n số_dòng] [tên_tập_tin]
+```
+
+Tail: Hiển thị các dòng cuối cùng của một tập tin.
+```
+tail [-n số_dòng] [tên_tập_tin]
+```
+
+- Đếm dòng ký tự của file
 ```
 wc [Tùy chọn] [Tệp]
 ```
