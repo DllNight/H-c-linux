@@ -75,7 +75,7 @@ mv [Tùy chọn] [Nguồn] [Đích]
 
 ![alt text](image-5.png)
 
-## Tạo, xóa thư mục
+## Tạo, xóa thư mục, tập tin
 - Tạo thư mục
 ```
 mkdir [tùy chọn] [tên_thư_mục]
@@ -95,3 +95,31 @@ rmdir [tùy chọn] [tên_thư_mục]
 rm [tùy chọn] [tên_tập_tin_hoặc_thư_mục]
 ```
 ![alt text](image-8.png)
+
+- Tạo tập tin rỗng
+```
+touch [tùy chọn] [tên_tập_tin]
+```
+![alt text](image-9.png)
+
+- tạo tập tin và thêm nội dung vô file
+```
+echo "nội dung" >> [đường dẫn]
+```
+dấu >  sẽ ghi đè lên nội dung của file
+dấu >> sẽ nối thêm nội dung vào cuối file
+
+## xem tập tin, đếm dòng, ký tự, tìm kiếm trong file
+```
+wc [Tùy chọn] [Tệp]
+```
+Các tùy chọn thường dùng:
+-l: Đếm số dòng.
+-w: Đếm số từ.
+-c: Đếm số byte.
+-m: Đếm số ký tự.
+--lines: Tương đương với -l.
+--words: Tương đương với -w.
+--chars: Tương đương với -c.
+--bytes: Tương đương với -c.
+
