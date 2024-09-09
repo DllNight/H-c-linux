@@ -20,4 +20,4 @@ s/pattern/replacement/g: Tìm kiếm và thay thế tất cả các lần xuất
 d: Xóa dòng hiện tại.
 p: In dòng hiện tại.
 a\text: Chèn text sau dòng hiện tại.
-i\text: Chèn text trước dòng hiện tại.
+i\text: Chèn text trước dòng hiện tại. 
