@@ -44,3 +44,7 @@ sudo systemctl status sshd
 ```
 ![alt text](image-1.png)
 
+Kiểm tra version ubuntu server
+```
+lsb_release -a
+```
